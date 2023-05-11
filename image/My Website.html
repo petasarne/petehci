@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+	<link rel="stylesheet" href="My%20Website_files/bootstrap.min.css">
+	<link rel="stylesheet" href="My%20Website_files/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+	<link href="My%20Website_files/css2_002.css" rel="stylesheet">
+	<link rel="stylesheet" href="My%20Website_files/css2.css">
+	<link rel="stylesheet" href="My%20Website_files/font-awesome.min.css">
+	<link href="My%20Website_files/font-awesome.css" rel="stylesheet">
+	
+
+	<style>
+		span{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.checked {
+  			color: #03f0e8;
+		}
+	</style>
+</head>
+
+
+<body>
+
+
+
+	<!-- Home Section -->
+	<section class="home" id="home">
+
+		<nav class="navBar">
+			<div class="brandName">Dress Fashion</div>
+			<a class="toggle-button" onclick="toggle()">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+			<div class="navbar-links" id="navbar-links">
+				<ul class="nav-menu">
+					<li><a href="#home" class="nav-link">Home</a></li>
+					<li><a href="#about" class="nav-link">About</a></li>
+					<li><a href="#products" class="nav-link">Products</a></li>
+					<li><a href="#contact" class="nav-link">Contacts</a></li>
+					<li><a class="carton" href="#cart"><img style="width: 20px;" src="My%20Website_files/2838838.png" alt=""></a></li>
+	
+				</ul>
+			</div>
+
+		</nav>	
+
+	<div class="mainCon">
+
+		<div class="maincon1">
+			<div class=" dev1">
+				<h2 style="color: white; padding: 5%; text-transform: uppercase;">we are now open</h2>
+				<p style="color: white; padding: 5%; text-transform: uppercase;">welcome to our online store </p>
+				<p style="color: white; padding: 5%; text-transform: uppercase;">dressfashion.com</p>
+						</div>
+
+			<div class="dev2">
+				
+				<h2 style="color: black; padding: 5%; text-transform: uppercase;"> get-up A new arrival dress fashion 2023</h2>
+				<img class="imahe" src="My%20Website_files/images_002.jpg" alt="" srcset="">
+		
+			</div>
+
+		</div>
+
+	</div>
+
+	
+			
+	</section>
+
+	<!-- About Section -->
+	<section id="about">
+
+		<h1 class="prods_head">About</h1>
+		
+
+		<div class="about_container">
+
+			<div class=" about_info">
+				<div class="box1">
+					<img class="about_img" src="My%20Website_files/dress13.jpg">
+		
+				</div>
+
+				<div class="box1">
+					<h3> <u> Peter Sarne</u></h3>
+					<p>  Owner of the Dress Fashion</p>
+				</div>
+	
+				
+				<div class="box1">
+					<img class="about_img" src="My%20Website_files/aboutdress.jpg">
+		
+				</div>
+	
+				<div class="box1">
+					<p class="pa">It is a great spot to find classic, timeless pieces for men, women and kids. From comfy 
+						joggers and denim jeans to stylish blouses and dress shirts, you’ll find everything you need for a polished wardrobe</p>
+				</div>
+			 </div>
+
+			 <div class=" about_info">
+				<div class="box1">
+					<img class="about_img" src="My%20Website_files/dress10.jpg">
+		
+				</div>
+	
+				<div class="box1">
+					<h3></h3>
+					<p class="pa">We are tha one is a budget-friendly clothing store that has colorful and trendy
+						pieces for men and women. Their selection of graphic tees, dress suit and wedding dress, and dress for ocasions </p>
+				</div>
+				<div class="box1">
+				<img class="about_img" src="My%20Website_files/images.jpg">
+		
+				</div>
+				<div class="box1">
+					<p class="pa">Fashion Shop is a great place to find designer clothes, shoes and accessories at discounted prices. 
+						From elegant suits and dresses to street style sneakers and denim, this is your go-to store for classy bargains.</p>
+				</div>
+	
+				
+			 </div>
+
+		</div>
+
+		<a href="#home"><img class="navArrUp" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAADmCAMAAABruQABAAAAilBMVEX39/cAAAD////6+vrNzc38/Pzz8/Py8vLb29u/v7/IyMjW1tbu7u7r6+vd3d3g4OCzs7N+fn6tra0qKiqHh4cVFRUxMTFsbGxJSUmbm5s3NzeUlJSioqKurq5DQ0NkZGRVVVV3d3ciIiINDQ1QUFAcHByVlZVxcXFERESDg4NeXl4mJiafn581NTV+TdltAAAOsUlEQVR4nO2de1/rLg/AK5Tduq5Vp3MXz5zXnx7P+397TzdvSwiQtDD1+Sx/6kr5FggJhJBlRznKUY5ylKMc5Sj7orUxRkFp/qL1d1esk+gdU1kM6/nyebZ+udnKy3r2vJzXw6LcMf5CQt1QZUX9OPtz4pbFbFkXWUP4ewAbLjOpnxceKkB4Wk/Mr+DTSlVnszsm16esz6qm/b678j4xKsunf6Vc7/L3Oc9+Kp5WevQkbjAoT6OmlO8GscSo4vSiG9hO7k6Ln9V4WvXOuKojLItV/8c0nlbVaTSwNzmd/IjGMyp/iUy2lZf82+mMGl0lINvK1ehb6bTK/0tEtpX/8m8bd1oNbhKSbeV+8D10avzEqt/VbLqqR0VV9psunGX9sipG9Wo64/Xlp7E6OJkx82C9FpvVqPx0aT4aQH86PWW+2vhs6TeZmwMPO5Wf+2t0s8yzkA+jd95CPg/07PP8kE1nso23Ms+jjG/Y650VeukrcJMdrOnUyGNdXS63HouwRK1MNfdYNhejwzSdydxWyN20MC01W9N8g6n7m50eounUwDnS7odZJ5WtVTZ0jr3zQfKmU2fOLzuIYEcYNXl2veAsLZzOZo4XL8tIs6xW40fHO2ZZwonclA51tuzFtB9U5pg7z8tkg06N6FdOe7F7i8qm9KtS6UvHUJuVKd7nsujSDDpFfspFkcia1aog7bFpAjhDapFVQh9L0x1lFhtOa2riuUnSHb9ElZRLfxN3K0FnlEdyLe6OWsvqpVVNvPcq5lygM6Lr/1fJGk0r1a/yfDIWWWWqvLdf/SceHIk2la3ga1Ut343hf1OJBaPVMiGczohFkaGs0dQEjJx7iUtGTat/Io05Y/eKS5mBoI317TeCL29K2/25j6Kf1doqeC3UCGNCE/2tBP2SmIDWEVS0sr014fRpylsbrZFC8OmJQXfaGU7ZZutKiubyOEVw19bj845wamgVKdQibjQhnK1RhDXBFRtYBQotcR+aEC63Hh90UCi6b1VMuJ5mxv5NORFcgZ++6LefCZSl/aVo3laTwhkL7r51r7S9GjHaQwCtK1xbj8dYo1esRmjl3x7OViijVkNO93E5dQo0IZylt1sNOYU9NuF8YkpuNIYIboUevmnRKy2ndyN0adhoMl1u2UnyFRRdoiKuhGhjSQyNCA73p1LaK7H6v5P1az3mjbUWcLqHlK90IrB6pMwE0H0Z2snJhF++maBnZb1Sjzs+LkUTwVmLKGNJn1Jo4VPmLLVBE/UMhdy5J0H1DDJLLyRkQjXSCi5DHy8X9OhF60e3aIGt8Ahw2Pha8J9EfuCzpEe2R5PAYVP3mv0kNN7PBWSNhmyPJoHTcLeMO2rwMoLEHO2GJtCWWCUwDcIefEqihLqiCeCw7dVjPYSWlASTR3c0ARxyU5acJkDNJljVioHGh8OmE6PhFNxJPxcYen1vcE90ODRTcUYcfNGQr7kiobHh8LpA+AHY0nzPJh7ayQlzOR35KmehpxQcMmyLRPf/RUPjwmlonZwH2gG1M9s1itlqfDjkpgYmYgU3mLnNpntx0ZhwqOFevC2hK/DjP8xm86G5ApgaxdYdDo047+oCCtRlKkkf2tBaLv2Uwl7gl8KhITT3PaLAUsQDr9l0z61GamKH4kNyVwyVAA6qPl+FNazIiqeteu6A1TOlPWy6OxyasnJ3p0T2J8v89KG9Kvy5UEWI7T0hHDQ1PHupBvyQtdjqQ9uar3627nCoOZy/RyPT08BfaJkbbbfHEmDrDIemAecUB79BaJoPob01e4itM5wCiszZKRU4UfkY7uw+tPdwuSBbVzjzuv/rOwcbat5JsEv60D5WNMNsHeGQuVHQtYbBO4tglyTDvN7l5qNCDDZ7nVgEp0BE1pL+sQLRO945PoR29XWyiMHWDc6AHTmHUwYXExyNy0LbC5NjsXWC03Drg5yUDej2D4Fm86H9633VmsfWCU6BJXrSBoZLtYGJ24d2u79Vx2SjYpq4cLDiZOQCHG5+F0BrN9od8DS4bJ7DMDvxBDXCDkcPOFiW/1Ce57ghrAWbrT0c2r6mfgFmN69Roo0HDfUePlt7OAWmWUIJQm/BF5zobTW8WyFgs+MrmHBwwBHLXWqz/4Pa3b19asQOFZGwBeDuXAoFDjhCCypQY7fBRR8VeBc7AFHEFoC7cMBBs4ta5AHFON1SLxoR7yVjy9Sr8+dbOFe3BEa+XQegbJwLXF40Kt5LyNYODk5floqHfqlr5vaikXEaUjYqQDoIBx1Pyz+FavLV0bG1B43ezBKztYGDlbcUJdSjtFXiRXukm1rOhnfJkNwRcLDTWVYXPOFQka81HjRXAGoLNuowAICznoPKwjogB4fjmHylfcDjU5xzfRu2ANyl/RzYH7YsSr3vKFxQbzUe19+939+KLQBn9xGzHyf01+q0+w+TYTbGHTLuCfdqx+Y43PohVq+E6wq4MNBjqThZOzL7U3x7Qy3Z/HDWogjcWitRFYDZQh1XVc5cAN7jWm3ZvHCWaQGNYaQJ4aIDpRmUy0L2nyFszeaF8/8WGcOwCtRCmHIMt4X/kF57Nk9PseYouG+ICoajiVq/c7CdB+KYO7B54Cw24D8gowsqeGrjTZGZuB5CEVFd2KhzhW/SRz+ERtfQx0ZFapAfkTKAIrK54KwVDwOWAL1sVKQlOQeE98e6sTngLF0Hqy9my4x9JooRytmRDWn3d7GWezqzWTYX5xxNVzYKzjaDBH2SjozCtjLrMFxnNiuen4roFLA5AhSgj8M7eNqdzYIjRoJfTwbnt92v9s4cFMzgk+5s0BO/pPSXd35Ddolz13j4Hquy6XEjvSKwZar6GA63KzKJhnn0FBy2J98LMfnjZlrzEydGYdsmthouT6erwpHT0G9P+r3y/V8aUQLrOGzZ9qt6Ep/DIYndO8DW/mixJdHYvAL9N2tFZH9p9l+UBBo7ORDbvgN2h/9rzn3/bS+HYQM2kxUaz1jnaiWHYfOvc8HjcuG4Ga4chC2wIsJZV2712kOwQcvDmp3hmbdg4AxbDsMGzBLL0od1iJeX7SBs0FewyoWTdziYiyuHYQNrcESIBdh7xAsSreUgbCBai5jA4CQQiuZiyyHYoDFMBM/AlYnguR32ew/ABj1TwtCH7p0w6YVbDsEGm4VYENEgpZO9z9NSDsIGjpUMiGI1eDG9cyqXA7CheC4y+gGc2/EEBslenJ4NrvWQ/hncq5ScfPbJAdjgzE2uh0Cj7O739Em4oes4/ZDizenZUOg//SN4wpF1Fpzx5uRscI3LkfYJbtBxjqwwJD0bnAEcHgyc4SKZXcnZUK2p2W0rCmRziZNcOzkbVO+3zlVj4Htf/BI2XoOgerRLo+cvMzobymPiLtMAHy6K852aDa4ou46IZVZIhyjtlUNSs8EsJh4dgaZBR0ikSBKzwZN9Xt2OMkX8fDZ41NI7J8PFsBjOQFo2tAfvPZCOXKHL7g2Xlg2eVgkoCJRprvv6clI2FPMSUOyoKtxEGOwC47KhOKxg8Bts5c7zd0o21GzBBWO4HiZIoueQlGwopDOs+fSD8IFAcenYkJJ8CBeHpoGHbu9P2m4wCSUrIwmsQUfjJB0bOtvC2sfGJ5nEKX6BJGPDSZJfeW0AL+H2Z08KViEVG4qcY4YfoBHXbQJPxYYjHnn5f1A8RvNJWLl1HJKs3WBoOHv/An+TLmvMidhwxCi/b+GE3x16ZRo2/PUFQVoaJwxr74EnYbOuNnCt3FGCw7vbB68lYcOp6EVJkrMenAfaz+Ap2PCJVKGys4LK2zoECdhw+mGxOrAOYLY0T+KzWbc2iG/dsrLs//sxbDi5lFzRWb2yne0Vnc3qUG0mKJykX6iN3iU2m3Xir+XqNz7xxjS1gURmsxJlyK42+BT7hqRrOVxcNjsdlORuHVCSlU1EfuNaVDY7u5zwnr39sqyT+GK4mGw2WqdLF60ktVK4iGw22qWsAFSzyqqR8MKteGxE6rVugVmWfSPt4tHYiAxXoitSqCLtXG6iyJNYbET2iBZaO1zok+AqYcsV/BJBkIc2m26f2CHEUd2rPr839KynP4TvmZienRWm+9WtW7GMr0YG7JKVK1kN399Vkzvr6VhR/oq4/Zzd2Z0pXdg2LpWbss1tfY7SiQvlZ5p7Zwh1LzzfrTCa6Dbx0JoXEPW7ZZ6mzfBddG9PM0ebKoiLu17inc9rxFB5kJaO059INHFf5l+eG68Nlc9qHRXNcfZ/wWs63cfN/sK74VAVVEKYaPH9X+8h08BMM9bdE6reb7rbmjzIjMVk9Cujo7nyJz4MefXU9UfbvdQsLaTVkLywt71X4xNHbu77gken+nl9Vud91glqrQbWPc076XZnt1vUgM6rM6tYdI1mMDxrTauSUPyNXPBtBqmYvsPI2JQ8OpY0ZBv6NRJbr8VrXYmlniaS0/oeMapykDVaJN4HpMSdEP9lFIHOqBFtxpykG2p7by+dmRrPV+NOeEaNV86bdq6CaZciiPYl9pwNs5Z4RukRrUB2Mk/cHz9EDdz3PTR6ZZS5E1bQoo3KRhtPmYt0+tGuizdt6cm6rjwJOXBZSpW1J23nyfbqkMM02puoip5aP+V8U1e+jCNb2WLpqt4Ebmm8rw7WaO/1UrU71+a7XNxM62LcAKjtpP0lxuz+1i/q6U24EJ7xGVdM5k1c+ikPV7Pp6/UwLyZVVVbVpMiH16/T2RXvruglyxiPL077IZo8lQfujl+ivxIwpZD15Bu64z7dxDMpdZLZ4FvJ3ugqV5bILnLK9C0Si1b9eVDdieRuPv4RZDsxaug0ccXyMozkUsQSo8q5zxLjymJe/jCyrTRWxmTZDe9yOZGaogcTrVS1ChhjTrl/bYzQHwr2Jk3r9UZTz00spCymo/6PbTEgjbU4zl/XxGI3IbfreT4WpQ/8dmnaz5T59XTtvrL28mV6nZfmd7QXFr11YlRWFqP67HX6fLrZyunz9PWsHhVltvUF9G/k2pOdU7Ol/BCzc3m+u1pHOcpRjnKUoxzlKEc5ylH+H+V/mMa9jlF/2hUAAAAASUVORK5CYII=" alt="" srcset=""></a>
+
+
+
+	</section>
+
+	<!-- Services Section -->
+
+	<section id="products">
+
+		<h2 class="prods_head">Products</h2>
+
+		<div class="prods_container">
+
+
+			<div class="box">
+				<div class="product">
+					<img class="imgProd" src="My%20Website_files/damit2.jpg" alt="">
+					<h3 class="product-name">crop top</h3>
+					<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span></p>
+					<p class="product-price">$19.99</p>
+					<input type="number" class="product-quantity" value="1" min="1">
+					<button class="add-to-cart-btn">add to cart</button>
+			
+				</div>
+			  </div>
+
+
+			  <div class="box">
+				<div class="product">
+					<img class="imgProd" src="My%20Website_files/dress1.jpg" alt="">
+					<h3 class="product-name">crop top</h3>
+					<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span></p>
+					<p class="product-price">$19.99</p>
+					<input type="number" class="product-quantity" value="1" min="1">
+					<button class="add-to-cart-btn">add to cart</button>
+			
+				</div>
+			  </div>
+
+	
+			  <div class="box">
+				<div class="product">
+					<img class="imgProd" src="My%20Website_files/dress3.jpg" alt="">
+					<h3 class="product-name">crop top</h3>
+					<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span></p>
+					<p class="product-price">$19.99</p>
+					<input type="number" class="product-quantity" value="1" min="1">
+					<button class="add-to-cart-btn">add to cart</button>
+			
+				</div>
+			  </div>
+
+	
+			  <div class="box">
+				<div class="product">
+					<img class="imgProd" src="My%20Website_files/dress9.jpg" alt="">
+					<h3 class="product-name">Body fitted</h3>
+					<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span></p>
+					<p class="product-price">$19.99</p>
+					<input type="number" class="product-quantity" value="1" min="1">
+					<button class="add-to-cart-btn">add to cart</button>
+			
+				</div>
+			  </div>
+
+
+			  <div class="box">
+				<div class="product">
+					<img class="imgProd" src="My%20Website_files/dress4.jpg" alt="">
+					<h3 class="product-name">Maxi-dress</h3>
+					<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span></p>
+					<p class="product-price">$19.99</p>
+					<input type="number" class="product-quantity" value="1" min="1">
+					<button class="add-to-cart-btn">add to cart</button>
+			
+				</div>
+			  </div>
+
+	
+			  <div class="box">
+				<div class="product">
+					<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+					<h3 class="product-name">Cocktale Dress</h3>
+					<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span></p>
+					<p class="product-price">$19.99</p>
+					<input type="number" class="product-quantity" value="1" min="1">
+					<button class="add-to-cart-btn">add to cart</button>
+			
+				</div>
+			  </div>
+	
+			</div>
+		 
+
+			<div class="prods_container">
+
+				<div class="box">
+					<div class="product">
+						<img class="imgProd" src="My%20Website_files/dress5.jpg" alt="">
+						<h3 class="product-name">Wedding dress</h3>
+						<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span></p>
+						<p class="product-price">$19.99</p>
+						<input type="number" class="product-quantity" value="1" min="1">
+						<button class="add-to-cart-btn">add to cart</button>
+				
+					</div>
+				  </div>
+		
+				  <div class="box">
+					<div class="product">
+						<img class="imgProd" src="My%20Website_files/dress6.jpg" alt="">
+						<h3 class="product-name">Gown</h3>
+						<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span></p>
+						<p class="product-price">$19.99</p>
+						<input type="number" class="product-quantity" value="1" min="1">
+						<button class="add-to-cart-btn">add to cart</button>
+				
+					</div>
+				  </div>
+	
+				  <div class="box">
+					<div class="product">
+						<img class="imgProd" src="My%20Website_files/DRESS7.jpg" alt="">
+						<h3 class="product-name">Ball Gown</h3>
+						<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span></p>
+						<p class="product-price">$19.99</p>
+						<input type="number" class="product-quantity" value="1" min="1">
+						<button class="add-to-cart-btn">add to cart</button>
+				
+					</div>
+				  </div>
+	
+	
+				  <div class="box">
+					<div class="product">
+						<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+						<h3 class="product-name">Evening Gown</h3>
+						<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span></p>
+						<p class="product-price">$19.99</p>
+						<input type="number" class="product-quantity" value="1" min="1">
+						<button class="add-to-cart-btn">add to cart</button>
+				
+					</div>
+				  </div>
+	
+		
+				  <div class="box">
+					<div class="product">
+						<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+						<h3 class="product-name">Polo dress</h3>
+						<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span></p>
+						<p class="product-price">$19.99</p>
+						<input type="number" class="product-quantity" value="1" min="1">
+						<button class="add-to-cart-btn">add to cart</button>
+				
+					</div>
+				  </div>
+	
+		
+			
+	
+		
+				  <div class="box">
+					<div class="product">
+						<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+						<h3 class="product-name">Sheath Dress</h3>
+						<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span></p>
+						<p class="product-price">$19.99</p>
+						<input type="number" class="product-quantity" value="1" min="1">
+						<button class="add-to-cart-btn">add to cart</button>
+				
+					</div>
+				  </div>
+		
+				</div>
+
+				<div class="prods_container">
+
+					
+		
+					  <div class="box">
+						<div class="product">
+							<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+							<h3 class="product-name">Strap less</h3>
+							<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span></p>
+							<p class="product-price">$19.99</p>
+							<input type="number" class="product-quantity" value="1" min="1">
+							<button class="add-to-cart-btn">add to cart</button>
+					
+						</div>
+					  </div>
+		
+		
+					  <div class="box">
+						<div class="product">
+							<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+							<h3 class="product-name">A line</h3>
+							<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span></p>
+							<p class="product-price">$19.99</p>
+							<input type="number" class="product-quantity" value="1" min="1">
+							<button class="add-to-cart-btn">add to cart</button>
+					
+						</div>
+					  </div>
+		
+			
+					  <div class="box">
+						<div class="product">
+							<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+							<h3 class="product-name">Trappess</h3>
+							<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span></p>
+							<p class="product-price">$19.99</p>
+							<input type="number" class="product-quantity" value="1" min="1">
+							<button class="add-to-cart-btn">add to cart</button>
+					
+						</div>
+					  </div>
+		
+			
+					  <div class="box">
+						<div class="product">
+							<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+							<h3 class="product-name">T-lenght</h3>
+							<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span></p>
+							<p class="product-price">$19.99</p>
+							<input type="number" class="product-quantity" value="1" min="1">
+							<button class="add-to-cart-btn">add to cart</button>
+					
+						</div>
+					  </div>
+		
+		
+					  <div class="box">
+						<div class="product">
+							<img class="imgProd" src="My%20Website_files/damit1.jpg" alt="">
+							<h3 class="product-name">Mermaid </h3>
+							<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span></p>
+							<p class="product-price">$19.99</p>
+							<input type="number" class="product-quantity" value="1" min="1">
+							<button class="add-to-cart-btn">add to cart</button>
+					
+						</div>
+					  </div>
+		
+			
+					  <div class="box">
+						<div class="product">
+							<img class="imgProd" src="My%20Website_files/rosedress.jpeg" alt="">
+							<h3 class="product-name">White Purple</h3>
+							<p style="margin-left: auto; margin-right: auto;">							<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span></p>
+							<p class="product-price">$19.99</p>
+							<input type="number" class="product-quantity" value="1" min="1">
+							<button class="add-to-cart-btn">add to cart</button>
+					
+						</div>
+					  </div>
+			
+					</div>
+
+					<a href="#home"><img class="navArrUp" src="data:image/png;base64,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" alt="" srcset=""></a>
+		
+
+
+	</section>
+
+
+
+	<!-- Contact Section -->
+
+
+<section id="cart">
+	
+	<ul id="buyItem">
+		<div style=" height: 100%; width: 400px ; display: flex; flex-direction:row; flex-wrap: wrap;" class="cart">
+			<h2>Shopping Cart <button class="time_design" onclick="document.getElementById('demo').innerHTML=Date()"></button>
+				<p style="font-size: 14px;" id="demo"></p></h2>
+			<ul class="cart-items"></ul>
+			<p class="cart-total"> total: $0.00</p>
+			
+		</div>
+
+		<div style="margin-top: 5%;">
+			<a href="#home"><img class="navArrUp" src="data:image/png;base64,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" alt="" srcset=""></a>
+	
+		</div>
+</ul></section>
+
+<section id="contact">
+	<h1 class="prods_head">Contact</h1>
+			<div class="hero">
+				<div class="container left">
+					<h2>Welcome to our website</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+ semper nisl et eleifend ultrices. Suspendisse auctor nulla eu pharetra 
+lobortis. Donec eget vestibulum augue, eget sagittis mi.</p>
+					<button>Learn More</button>
+					<img class="" src="My%20Website_files/dress1.jpg" alt="">
+							<img class="" src="My%20Website_files/dress1.jpg" alt="">
+							<img class="" src="My%20Website_files/dress1.jpg" alt="">
+							<img class="" src="My%20Website_files/dress1.jpg" alt="">
+							<img class="" src="My%20Website_files/dress1.jpg" alt="">
+				</div>
+				<div class="container right">
+					<form action="#" method="post">
+					<h3>Contact Us</h3>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+					<label for="message">Message:</label>
+					<textarea id="message" name="message"></textarea>
+					<input type="submit" value="Submit">
+					</form>
+				
+				
+				</div>
+
+
+				
+	</div>
+
+	<a href="#home"><img class="navArrUp" src="data:image/png;base64,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" alt="" srcset=""></a>
+
+
+	
+	<input type="button" id="logout" value="logout" onclick="validate()">
+
+    <script lang="javascript">
+       
+        function validate(){
+          const logout = document.getElementById("logout").Onclick;
+          
+          if ( click =true){
+              location="/home/peter/Documents/final projs/login.html"
+              return false;
+          }
+        }
+
+        </script>
+
+<script src="My%20Website_files/script.js"></script>
+		
+	<footer>
+
+		<div class="mainFoot">
+
+			<div class="I">
+
+				<h6>POLICY</h6>
+				<h4>TERMS </h4>
+				<h4>PRIVACY </h4>
+				<h4>COOKIE</h4>
+
+			</div>
+
+			<div class="II">
+
+				<h6>INFO</h6>
+				<h4>FAQ</h4>
+				<h4>RETURN</h4>
+				<h4>CONTACT</h4>
+
+			</div>
+
+			<div class="III">
+
+				<h6>POLICY</h6>
+				<h4>TERMS </h4>
+				<h4>PRIVACY </h4>
+				<h4>COOKIE</h4>
+
+			</div>
+
+			<div class="IV">
+
+				<h1><a style="width:10px; height: 100%;" href="#home"><img class="navArrUp" src="data:image/png;base64,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" alt="" srcset=""></a></h1>
+
+
+				<p>© 2022 - 2023||All rights reserved||sarnes|fashionshop</p> 
+
+			</div>
+
+		</div>
+	
+		
+		
+
+	</footer>
+
+
+	
+
+</section></body></html>
